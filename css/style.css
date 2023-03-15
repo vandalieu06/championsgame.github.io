@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html, body{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Verdana', Arial, sans-serif;
+}
+body::-webkit-scrollbar{
+	width: 10px;
+}
+	body::-webkit-scrollbar-thumb{
+		background: black;
+		border-radius: 2em;
+	}
+	body::-webkit-scrollbar-track{
+		background: #3F3636;
+	}
+header{
+	height: 6.5em;
+	width: 100%;
+	background: rgba(0 0 0 /0.99);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+	.img1{
+		width: 4em;
+		height: auto;
+		margin-left: 25px;
+		margin-right: 20px;
+		border-radius: 1.8em;
+		border: solid rgb(0 0 0) 5px;
+	}
+		.img1:hover{
+			width: 4.5em;
+			height: auto;
+			margin-left: 20px;
+			margin-right: 20px;
+			border-radius: 2.1em;
+			border: solid white 5px;
+			padding: 0em;
+		}
+	header nav{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-flow: wrap row;
+
+	}
+	header nav a{
+		max-width: 100%;
+		display: block;
+		margin: 0em 0.2em 0em 0em;
+		text-decoration: none;
+		text-align: center;
+		color: white;
+		font-size: 1.5em;
+		font-weight: bold;
+		padding: 0.5em;
+		font-family: 'Secular One';
+	}
+		header nav a:hover{
+			background-color: rgba( 255 255 255 /0.99);
+			padding: 0.5em;
+			border-radius: 1.5em;
+			color: black;
+			font-weight: bold;
+			margin: 0em 0.2em 0em 0em;
+		}
+.inicio{
+	background: url(/img/fondo_gamer.jpg) fixed no-repeat center top -18em;
+	background-size: cover;
+	height: 40vh;
+	opacity: 0.9;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0px;
+	margin: 0px;
+}
+	.inicio h1{
+		margin: 0.5em;
+		padding: 0.5em 1em 0.5em 1em;
+		border-radius: 30px;
+		opacity: 1;
+		font-size: 4.5em;
+		font-weight: 900;
+		color: white;
+		display: block;
+		background: rgba( 0 0 0 /0.85);
+		text-align: center;
+	}
+.contenido1{
+	padding: 1em 0em 3em 0em;
+	margin: 0px;
+	background: #F9F9F9;
+}
+.contenido11{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 3em 0em 2em 0em;
+}
+	.contenido1 h2{
+		text-align: center;
+		display: block;
+		width: 100%;
+		font-size: 3.5em;
+		margin: 0.3em 2.5em 0.5em 2.5em;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 700;
+		font-style: italic;
+	}
+.contenido2{
+	margin: 0em;
+	padding: 2em 0em 6em 0em;
+	background-color: white;
+}
+.contenido21{	
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+	height: 250px;
+}
+	.contenido21 h2{
+		width: 100%;
+		text-align: center;
+		font-size: 4em;
+		font-family: 'Secular One', sans-serig;
+		margin: 0.4em 0em 0.2em 0em;
+	}
+	.contenido21 .img3{
+		width: 10em;
+		margin: 0em 3em 0em 3em;
+		transition: 0.7s ease;
+	}
+		.contenido2 .img3:hover{
+			opacity: 0.9;
+			width: 13em;
+		}
+	.contenido21 .img2{
+		width: 6em;
+		margin: 0em 3em 0em 3em;
+		transition: 0.7s ease;
+	}
+		.contenido21 .img2:hover{
+			opacity: 0.9;
+			width: 9em;
+		}
+
+.contenido3{
+	background: rgba(243 217 255 /0.85);
+	padding: 2em 0.5em 2em 0.5em;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+	.contenido3 h2{
+		margin: 0em;
+		padding: 0em 2em 1em 2em;
+		font-size: 3.5em;
+		width: 100%;
+		display: block;
+		text-align: center;
+	}
+.producto1{
+	width: 20em;
+	height: 28.5em;
+	padding: 1.5em 1em 1em 1em;
+	margin: 0.5em 1.5em 3em 1em;
+	border: solid 7px black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: rgba(255 255 255/0.75);
+	border-radius: 15px;
+}
+	.producto1 img{
+		max-width: 100%;
+		width: 18em;
+		height: 19em;
+		object-fit: cover;
+		object-position: right;
+		border-radius: 15px;
+		transition: .5s ease;
+	}
+		.producto1 img:hover{
+			opacity: 0.6;
+		}
+	.producto1 p{
+		margin: 0em;
+		text-align: justify;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 1.25em;
+	}
+	.producto1 h3{
+		margin: 1em 0em 1em 0em;
+		font-size: 1.5em;
+		text-align: center;
+		text-transform: uppercase;
+	}
+.producto2{
+	width: 20em;
+	height: 28.5em;
+	padding: 1.5em 1em 1em 1em;
+	margin: 0.5em 1.5em 3em 1em;
+	border: solid 7px black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: rgba(255 255 255/0.75);
+	border-radius: 15px;
+}
+	.producto2 img{
+		max-width: 1005;
+		width: 18em;
+		height: 19em;
+		object-fit: cover;
+		object-position: center;
+		border-radius: 15px;
+		transition: .5s ease;
+	}
+	.producto2 img:hover{
+		opacity: 0.6;
+	}
+	.producto2 p{
+		margin: 0em;
+		text-align: justify;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 1.25em;
+	}
+	.producto2 h3{
+		margin: 1em 0em 1em 0em;
+		font-size: 1.5em;
+		text-align: center;
+		text-transform: uppercase;
+	}
+footer{
+	height: 6em;
+	max-width: 100%;
+	padding: 2em 2em 2em 2em;
+	background: rgba(0 0 0 /0.89);
+	color: white;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+	footer .copyright p{
+		font-size: 1.15em;
+		font-style: normal;
+		font-weight: bold;
+		text-align: center;
+	}
+	footer ul{
+		list-style: none;
+		padding: 0px;
+		display: flex;
+	}
+	footer ul li{
+		margin: 0em 0.5em 0em 0.5em;
+	}
+	footer ul li article a{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: white;
+		text-decoration: none;
+		font-weight: 900;
+	}
+	footer ul li article a i{
+		margin: 0em 0.02em 0em 0em;
+	}
